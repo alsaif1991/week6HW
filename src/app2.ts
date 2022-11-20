@@ -35,14 +35,7 @@ prompt.start();
           return  res.send(title);
          })
 
-//          app.get('/Ititle/:title',(req,res)=>{
-//             const {title}=req.params;
-//             let z = title.toLowerCase() || title.toLowerCase() 
-//             title.map((search:any)=>{
-// return  search.title.toLowerCase()===z || search.title.toUpperCase()===z? res.json(search) : "Not Found"
-                
-//             })
-//            })
+
 
            app.delete('/delete/:id',(req,res)=>{
             const { id } = req.params;
